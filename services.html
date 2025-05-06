@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - EdTodo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .services-hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/services-bg.jpg');
+            height: 50vh;
+        }
+        
+        .services-content {
+            padding: 5rem 5%;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .service-card {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-card i {
+            font-size: 2.5rem;
+            color: #3498db;
+            margin-bottom: 1rem;
+        }
+        
+        .pricing-section {
+            background-color: #f9f9f9;
+            padding: 5rem 5%;
+        }
+        
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .pricing-card {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        .pricing-card h3 {
+            color: #3498db;
+            margin-bottom: 1rem;
+        }
+        
+        .price {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+            margin: 1rem 0;
+        }
+        
+        .features-list {
+            list-style: none;
+            padding: 0;
+            margin: 2rem 0;
+        }
+        
+        .features-list li {
+            margin: 0.5rem 0;
+        }
+        
+        .features-list li i {
+            color: #2ecc71;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>EdTodo</h1>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html" class="active">Our Services</a>
+            <a href="programs.html">Our Programs</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Services Hero Section -->
+    <section class="services-hero">
+        <div class="hero-content">
+            <h1>Our Services</h1>
+            <p>Discover our comprehensive educational solutions</p>
+        </div>
+    </section>
+
+    <!-- Services Content -->
+    <section class="services-content">
+        <h2>What We Offer</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Online Courses</h3>
+                <p>Access our extensive library of online courses covering various subjects and skill levels.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h3>Live Tutoring</h3>
+                <p>Get personalized attention from expert tutors through one-on-one sessions.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-certificate"></i>
+                <h3>Certification Programs</h3>
+                <p>Earn recognized certifications to boost your career prospects.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-users"></i>
+                <h3>Group Learning</h3>
+                <p>Join study groups and collaborate with peers for enhanced learning.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-book"></i>
+                <h3>Study Materials</h3>
+                <p>Access comprehensive study materials and resources.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Progress Tracking</h3>
+                <p>Monitor your learning progress with detailed analytics.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section">
+        <h2>Our Pricing Plans</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Basic</h3>
+                <div class="price">$29<span>/month</span></div>
+                <ul class="features-list">
+                    <li><i class="fas fa-check"></i> Access to Basic Courses</li>
+                    <li><i class="fas fa-check"></i> Limited Study Materials</li>
+                    <li><i class="fas fa-check"></i> Basic Progress Tracking</li>
+                    <li><i class="fas fa-check"></i> Email Support</li>
+                </ul>
+                <button class="cta-button">Get Started</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Premium</h3>
+                <div class="price">$49<span>/month</span></div>
+                <ul class="features-list">
+                    <li><i class="fas fa-check"></i> All Basic Features</li>
+                    <li><i class="fas fa-check"></i> Access to Premium Courses</li>
+                    <li><i class="fas fa-check"></i> Unlimited Study Materials</li>
+                    <li><i class="fas fa-check"></i> Priority Support</li>
+                    <li><i class="fas fa-check"></i> Live Tutoring Sessions</li>
+                </ul>
+                <button class="cta-button">Get Started</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Enterprise</h3>
+                <div class="price">$99<span>/month</span></div>
+                <ul class="features-list">
+                    <li><i class="fas fa-check"></i> All Premium Features</li>
+                    <li><i class="fas fa-check"></i> Custom Learning Paths</li>
+                    <li><i class="fas fa-check"></i> Group Learning Sessions</li>
+                    <li><i class="fas fa-check"></i> Dedicated Support</li>
+                    <li><i class="fas fa-check"></i> Advanced Analytics</li>
+                </ul>
+                <button class="cta-button">Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@edtodo.com</p>
+                <p>Phone: +1 (123) 456-7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 EdTodo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

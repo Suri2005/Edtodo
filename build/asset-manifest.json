@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.20d78712.css",
+    "main.js": "/static/js/main.8223a4ac.js",
+    "static/js/453.a7343646.chunk.js": "/static/js/453.a7343646.chunk.js",
+    "static/media/Stardom copy.mp4": "/static/media/Stardom copy.d16de4fd1a81119e45d5.mp4",
+    "static/media/PSRR college.png": "/static/media/PSRR college.4c9c86b9246005922e01.png",
+    "static/media/ST college.png": "/static/media/ST college.3e143eef53ec2a7dd703.png",
+    "static/media/colloge.png": "/static/media/colloge.65ccda301faf258fbf15.png",
+    "static/media/Duty.png": "/static/media/Duty.4a2e2c64377324ac6575.png",
+    "static/media/College2.png": "/static/media/College2.0cd5c0f25be6ba0d7561.png",
+    "static/media/group-photo.jpg": "/static/media/group-photo.a7df7cb37b07359a992c.jpg",
+    "static/media/TNAU.png": "/static/media/TNAU.03df35be795bf016687a.png",
+    "static/media/Enter.jpeg": "/static/media/Enter.08003dbe23c1de77f1a1.jpeg",
+    "static/media/Chatolic.png": "/static/media/Chatolic.dc2bc17421cc54209954.png",
+    "static/media/Tansam.jpeg": "/static/media/Tansam.e8911811010247fa73ca.jpeg",
+    "static/media/Reach.png": "/static/media/Reach.f19a5d48dd2620bfd85a.png",
+    "static/media/Kalasalingam college.png": "/static/media/Kalasalingam college.7641e52a0ab8c64a5d31.png",
+    "static/media/popes college.jpeg": "/static/media/popes college.eec43173b03915130982.jpeg",
+    "static/media/shreee.jpeg": "/static/media/shreee.10f643e97bb680be639c.jpeg",
+    "static/media/scad college.png": "/static/media/scad college.07718001e662fe0135b3.png",
+    "static/media/spark.jpeg": "/static/media/spark.ec711f8c677a6d457397.jpeg",
+    "static/media/FXEX.png": "/static/media/FXEX.0c1c481486cb04bfe7b7.png",
+    "index.html": "/index.html",
+    "main.20d78712.css.map": "/static/css/main.20d78712.css.map",
+    "main.8223a4ac.js.map": "/static/js/main.8223a4ac.js.map",
+    "453.a7343646.chunk.js.map": "/static/js/453.a7343646.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20d78712.css",
+    "static/js/main.8223a4ac.js"
+  ]
+}
